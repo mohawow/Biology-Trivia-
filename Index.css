@@ -13,13 +13,13 @@
 } 
 
 body{
-	background-image: url(https://easylife-online.com/wp-content/uploads/data/2018/1/2/sciencefree-chemistry-medicine-hd-wallpaper-words-psychedelic-genetics-deta.jpg);
-	font-family: 'Carrois Gothic';
+  background-image: url(https://easylife-online.com/wp-content/uploads/data/2018/1/2/sciencefree-chemistry-medicine-hd-wallpaper-words-psychedelic-genetics-deta.jpg);
+  font-family: 'Carrois Gothic';
 }
 .container {
-	max-width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
-	background-color: #a2c0f2;
+  background-color: #282b31;
   padding: 10px 50px 50px 50px;
   border-radius: 10px;
   border: 2px solid #6196ED;
@@ -27,7 +27,7 @@ body{
 }
 .container h1 {
   font-family: sans-serif;
-  background-color: #8FDFCB; 
+  background-color: #0f1010; 
   font-size: 50px;
   text-align: center;
   color: #E06F5A;
@@ -35,23 +35,23 @@ body{
   border-radius: 50px;
 }
 h2{
-	color: #E06F5A;
-	font-size: 24px;
+  color: #E06F5A;
+  font-size: 24px;
 }
 .qHead {
   font-size: 28px;
-	color: white;
-	padding: 15px;
-	text-align: center;
-	font-family: 'Carrois Gothic';
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Carrois Gothic';
 
 }
 .container .questionBox {
   font-family: sans-serif;
   font-size: 30px;
   color:white;
-	background: rgba(0, 0, 0, 0.7);
-	 border-radius: 50px;
+  background: rgba(0, 0, 0, 0.7);
+   border-radius: 50px;
 }
 
 .box,
@@ -66,54 +66,54 @@ h2{
   
 }
 .landingPage{
-	background: rgba(0, 0, 0, 0.7);
-	 color: white;
+  background: rgba(0, 0, 0, 0.7);
+   color: white;
   font-weight: bold;
   border-bottom: 1px solid black;
-	padding: 15px;
-	border-radius: 20px;
-	text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
 }
 .wrongAnswerFeedback {
-	color: #E06F5A;
+  color: #E06F5A;
 }
 correctAnswerFeedback {
-	color: #8FDFCB;
+  color: #8FDFCB;
 }
 
  .answerBoxCorrect, .answerBoxWrong {
   color: #8FDFCB;
-	padding: 22px;
-	border-radius: 20px;
-	text-align: center;
-	font-size: 24px;
+  padding: 22px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 24px;
 }
 
 .answerBoxWrong {
   color: #E06F5A;
   height: auto;
-	padding: 15px;
-	border-radius: 20px;
+  padding: 15px;
+  border-radius: 20px;
 }
 .trackerSection {
   text-shadow: black 0px 0px 5px;
 }
 .questionCounter {
-	color: #E2D58B;
+  color: #E2D58B;
   font-size: 24px;
   float:left;
-	list-style: none;
+  list-style: none;
 }
 .scoreCounter {
-	color: #E2D58B;
+  color: #E2D58B;
   font-size: 24px;
   float:right;
-	list-style: none;
+  list-style: none;
 }
 .startBtn, .answerBtn {
   background: #8FDFCB;
   border: 2px solid #8FDFCB;
-	font-size: 22px;
+  font-size: 22px;
   border-radius: 20px;
   height: 40px;
   width: 120px;
@@ -122,24 +122,24 @@ correctAnswerFeedback {
   box-shadow: 0px 2px 5px;
   -moz-box-shadow: 0px 2px 5px;
   -webkit-box-shadow: 0px 2px 5px;
-	cursor: pointer;
-	outline: 0;
-	width: 100%;
-	text-align: center;
+  cursor: pointer;
+  outline: 0;
+  width: 100%;
+  text-align: center;
 }
 .correctBtn, .wrongBtn  {
   color: #8FDFCB;
   border: 2px solid #E2D58B;;
-	color:rgba(0, 0, 0, 0.7);
-	cursor: pointer;
-	outline: 0;
-	background: #E2D58B;
-	border-radius: 10px;
+  color:rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  outline: 0;
+  background: #E2D58B;
+  border-radius: 10px;
 }
 .peachBtn {
   background: #8FDFCB;
   border: 2px solid #8FDFCB;
-	font-size: 22px;
+  font-size: 22px;
   border-radius: 20px;
   height: 40px;
   width: 120px;
@@ -148,10 +148,10 @@ correctAnswerFeedback {
   box-shadow: 0px 2px 5px;
   -moz-box-shadow: 0px 2px 5px;
   -webkit-box-shadow: 0px 2px 5px;
-	cursor: pointer;
-	outline: 0;
-	width: 100%;
-	text-align: center;
+  cursor: pointer;
+  outline: 0;
+  width: 100%;
+  text-align: center;
 } 
 label {
   font-size: 20px;
@@ -160,11 +160,11 @@ label {
   border-radius: 50px;
   margin: 5px;
   padding: 6px 6px;
-	display: inline-block;
-	transition: all 0.5s ease;
-	text-align: center;
-	cursor: pointer;	
-	width: 100%;
+  display: inline-block;
+  transition: all 0.5s ease;
+  text-align: center;
+  cursor: pointer;  
+  width: 100%;
 }
 fieldset {
   border: none;
@@ -172,20 +172,20 @@ fieldset {
 label:hover, label:focus {
   background-color: rgba(241, 238, 219, 0.26);
   border: 1px solid #8FDFCB;
-	outline: 0;
+  outline: 0;
 }
  input {
-	-webkit-appearance: none; 
-	-moz-appearance: none; 
-	border-radius: 100%;
-	width: 20px;
-	height: 20px;
-	transition: 0.3s all linear;
-	color:rgba(0, 0, 0, 0.7);
-	outline: 0;
-	cursor: pointer;
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  transition: 0.3s all linear;
+  color:rgba(0, 0, 0, 0.7);
+  outline: 0;
+  cursor: pointer;
 } 
-	input:checked {
+  input:checked {
   border: 10px solid #8FDFCB;
   border-radius: 50%;
   margin-left: 35%;

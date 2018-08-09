@@ -13,18 +13,22 @@ function makeQuestion() {
 	           <fieldset class="col-12 buttons"
 						  role="radiogroup">
 							<table>
+				<legend></legend>			
 	            <label class="answer">
 	              <input id="btn0" type="radio" role="radio" value="${STORE[questionNumber].answerChoice[0]}" class="answerOption" name="answer" required>
 	                <span id="opt1" class="answerChoice">${STORE[questionNumber].answerChoice[0]}</span>
 	              </label>
+	              <legend></legend>
 	              <label class="answer">
 	              <input id="btn2" type="radio" role="radio" value="${STORE[questionNumber].answerChoice[1]}" class="answerOption"  name="answer" required>
 	                <span id="opt2" class="answerChoice">${STORE[questionNumber].answerChoice[1]}</span>
 	              </label>
+	              <legend></legend>
 	              <label class="answer">
 	              <input id="btn3" type="radio" role="radio" value="${STORE[questionNumber].answerChoice[2]}" class="answerOption"  name="answer" required>
 	                  <span id="opt3" class="answerChoice">${STORE[questionNumber].answerChoice[2]}</span>
 	              </label>
+	              <legend></legend>
 	              <label class="answer">
 	              <input id="btn4" type="radio" role="radio" value="${STORE[questionNumber].answerChoice[3]}" class="answerOption"  name="answer" required>
 	                <span id="opt4" class="answerChoice">${STORE[questionNumber].answerChoice[3]}</span>
