@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Biology Trivia test your knowledge on Biology fun facts">
+	<title>Biology Trivia</title>
+	<link href="index.css" rel="stylesheet" type="text/css" /> 
+    <link href="gridS.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic" rel="stylesheet">
+
+</head>
+<body>
+	<main class="row container" role="main">
+		<header class="col-12 banner" role="banner">
+			<h1 class="title">BIOLOGY TRIVIA</h1>
+		</header>
+		<div class="col-12 box">
+			<div class="landingPage" role="content-introduction">
+				<h2> Challange Quiz App</h2>
+				<h3> Play  have fun and score points</h3>
+				<button class="startBtn" role="button">Let's play</button>
+			</div>	
+		</div>
+	    <div class="questionBox col-12" role="questions-box"></div>
+
+	    <div class="col-12 trackerSection" role="score-tracker">
+    		<ul class="scoreAndQuestion" >
+     			<li class="questionCounter js-questionCounter">QUESTION</br><span class="questionNumber">0</span>/5</li>
+     			<li class="scoreCounter js-scoreCounter">SCORE <span class="scoreTotal">0</span></li>
+  			</ul>
+ 		 </div>	
+    </main>
+	   <script src="https://code.jquery.com/jquery.min.js"></script>
+       <script src="Store.js"></script>
+       <script src="index.js"></script>
+       
+	</header>
+
+</body>
+</html>
